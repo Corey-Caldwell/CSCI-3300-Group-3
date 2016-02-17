@@ -24,6 +24,7 @@ public class Main : MonoBehaviour
 
 	public WeaponType[] activeWeaponTypes;
     public float enemySpawnRate;
+    public int globalScore = 0;
 
     void Awake()
     {
